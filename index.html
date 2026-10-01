@@ -100,7 +100,7 @@ code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em;backgroun
 <body>
 
 <div class="brandbar"><div class="in">
-  <img src="logo.png" alt="Estan Plaza Hotels">
+  <img src="img/logo.png" alt="Estan Plaza Hotels">
   <small>Compras · Treinamento VMarket</small>
 </div></div>
 
@@ -152,42 +152,42 @@ code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em;backgroun
 const MODULES=[
  {id:"primeiro-acesso",n:1,title:"Primeiro acesso",for:["sol","apr"],ready:true,
   who:"Todos os colaboradores",dur:"1 min de vídeo",
-  video:"primeiro-acesso.mp4",poster:"primeiro-acesso-capa.jpg",pdf:"primeiro-acesso.pdf",pdfName:"VMarket - Primeiro acesso.pdf",
+  video:"media/primeiro-acesso.mp4",poster:"media/primeiro-acesso-capa.jpg",pdf:"media/primeiro-acesso.pdf",pdfName:"VMarket - Primeiro acesso.pdf",
   intro:"Como entrar na plataforma pela primeira vez e trocar a senha padrão por uma senha sua.",
   steps:[
    {t:"Acesse a plataforma",p:"No navegador de sua preferência, digite <code>app.vmarket.com.br</code> na barra de endereços e abra a página."},
-   {t:"Faça o login inicial",p:"Informe seu e-mail corporativo e a senha padrão fornecida pelo TI. Depois clique em <b>Entrar</b>.",img:[["s-000.jpg","Tela de login do VMarket"]]},
-   {t:"Abra as opções da sua conta",p:"Já dentro da plataforma, clique no ícone no canto superior direito da tela. Ele abre as opções da sua conta, onde fica a troca de senha.",img:[["s-001.jpg","Ícone da conta no canto superior direito"],["s-002.jpg","Menu de opções da conta aberto"]]},
-   {t:"Defina a sua nova senha",p:"Na tela de alteração de senha, escolha uma senha nova seguindo as regras de segurança da empresa, preencha os dois campos e clique em <b>Salvar</b>.",img:[["s-003.jpg","Tela de alteração de senha"]]},
+   {t:"Faça o login inicial",p:"Informe seu e-mail corporativo e a senha padrão fornecida pelo TI. Depois clique em <b>Entrar</b>.",img:[["img/s-000.jpg","Tela de login do VMarket"]]},
+   {t:"Abra as opções da sua conta",p:"Já dentro da plataforma, clique no ícone no canto superior direito da tela. Ele abre as opções da sua conta, onde fica a troca de senha.",img:[["img/s-001.jpg","Ícone da conta no canto superior direito"],["img/s-002.jpg","Menu de opções da conta aberto"]]},
+   {t:"Defina a sua nova senha",p:"Na tela de alteração de senha, escolha uma senha nova seguindo as regras de segurança da empresa, preencha os dois campos e clique em <b>Salvar</b>.",img:[["img/s-003.jpg","Tela de alteração de senha"]]},
    {t:"Use o novo acesso",p:"A partir de agora, entre sempre com o seu e-mail corporativo e a nova senha."}
   ],
   tip:"<b>Esqueceu a senha ou a senha padrão não funciona?</b> Fale com o TI da sua unidade antes de tentar várias vezes."},
  {id:"requisicao-interna",n:2,title:"Requisição interna",for:["sol"],ready:true,
   who:"Solicitantes",dur:"3,5 min de vídeo",
-  video:"requisicao-interna.mp4",poster:"requisicao-interna-capa.jpg",pdf:"requisicao-interna.pdf",pdfName:"VMarket - Requisição interna.pdf",
+  video:"media/requisicao-interna.mp4",poster:"media/requisicao-interna-capa.jpg",pdf:"media/requisicao-interna.pdf",pdfName:"VMarket - Requisição interna.pdf",
   intro:"Como pedir materiais e equipamentos novos: da busca dos itens até o envio da requisição para aprovação interna e cotação de Compras.",
   steps:[
-   {t:"Abra a Solicitação Interna",p:"No menu principal do VMarket, clique em <b>Solicitação Interna</b>.",img:[["r-00.jpg","Menu principal com a opção Solicitação Interna"]]},
-   {t:"Encontre o item",p:"A página funciona como uma loja virtual. Desça a lista de produtos ou use a barra de pesquisa para digitar o nome ou a descrição do material.",img:[["r-01.jpg","Lista de produtos e barra de pesquisa"],["r-02.jpg","Pesquisa pelo nome do item"]]},
-   {t:"Escolha o item e a quantidade",p:"Selecione o item e informe a quantidade. O carrinho mostra que o item foi adicionado. Repita para todos os itens que precisar e, no fim, confira se todos estão no carrinho.",img:[["r-03.jpg","Seleção do item"],["r-04.jpg","Quantidade informada"],["r-05.jpg","Carrinho com os itens adicionados"]]},
-   {t:"Preencha o resumo da solicitação",p:"Abra o carrinho. Em <b>Resumo da Solicitação</b>, dê um nome que explique a finalidade geral do pedido e detalhe o motivo da necessidade. Se precisar passar instruções ao fornecedor, marque a opção de enviar observações dos produtos. Se o material for emergencial, marque o campo de urgência.",img:[["r-07.jpg","Nome da requisição"],["r-08.jpg","Motivo da necessidade"],["r-09.jpg","Envio de observações ao fornecedor"],["r-10.jpg","Campo de urgência"]]},
-   {t:"Revise cada item",p:"Confira produto e quantidade. Para cada item: em <b>Centro de Custo</b>, indique se é para revenda ou consumo interno; inclua uma observação com a especificação (modelo, cor, tamanho); anexe uma imagem de referência; e, na observação geral, explique como o produto será usado.",img:[["r-11.jpg","Observação específica do item"],["r-13.jpg","Centro de custo: revenda ou consumo"],["r-14.jpg","Anexo da imagem de referência"],["r-19.jpg","Observação geral com a finalidade do item"]]},
-   {t:"Escolha a unidade e peça a pré-aprovação",p:"Selecione a unidade (filial) para onde o material deve ser enviado. Depois clique para solicitar a <b>pré-aprovação</b>, que envia a requisição para o fluxo de aprovação interna.",img:[["r-21.jpg","Seleção da unidade de destino"],["r-22.jpg","Botão de solicitar pré-aprovação"]]},
-   {t:"Confirme o envio",p:"A plataforma mostra a mensagem de que a requisição foi aberta com sucesso. O pedido segue pelas aprovações internas e, depois de aprovado, vai para Compras fazer a cotação com os fornecedores.",img:[["r-23.jpg","Requisição pronta para envio"],["r-24.jpg","Mensagem de requisição aberta com sucesso"]]}
+   {t:"Abra a Solicitação Interna",p:"No menu principal do VMarket, clique em <b>Solicitação Interna</b>.",img:[["img2/r-00.jpg","Menu principal com a opção Solicitação Interna"]]},
+   {t:"Encontre o item",p:"A página funciona como uma loja virtual. Desça a lista de produtos ou use a barra de pesquisa para digitar o nome ou a descrição do material.",img:[["img2/r-01.jpg","Lista de produtos e barra de pesquisa"],["img2/r-02.jpg","Pesquisa pelo nome do item"]]},
+   {t:"Escolha o item e a quantidade",p:"Selecione o item e informe a quantidade. O carrinho mostra que o item foi adicionado. Repita para todos os itens que precisar e, no fim, confira se todos estão no carrinho.",img:[["img2/r-03.jpg","Seleção do item"],["img2/r-04.jpg","Quantidade informada"],["img2/r-05.jpg","Carrinho com os itens adicionados"]]},
+   {t:"Preencha o resumo da solicitação",p:"Abra o carrinho. Em <b>Resumo da Solicitação</b>, dê um nome que explique a finalidade geral do pedido e detalhe o motivo da necessidade. Se precisar passar instruções ao fornecedor, marque a opção de enviar observações dos produtos. Se o material for emergencial, marque o campo de urgência.",img:[["img2/r-07.jpg","Nome da requisição"],["img2/r-08.jpg","Motivo da necessidade"],["img2/r-09.jpg","Envio de observações ao fornecedor"],["img2/r-10.jpg","Campo de urgência"]]},
+   {t:"Revise cada item",p:"Confira produto e quantidade. Para cada item: em <b>Centro de Custo</b>, indique se é para revenda ou consumo interno; inclua uma observação com a especificação (modelo, cor, tamanho); anexe uma imagem de referência; e, na observação geral, explique como o produto será usado.",img:[["img2/r-11.jpg","Observação específica do item"],["img2/r-13.jpg","Centro de custo: revenda ou consumo"],["img2/r-14.jpg","Anexo da imagem de referência"],["img2/r-19.jpg","Observação geral com a finalidade do item"]]},
+   {t:"Escolha a unidade e peça a pré-aprovação",p:"Selecione a unidade (filial) para onde o material deve ser enviado. Depois clique para solicitar a <b>pré-aprovação</b>, que envia a requisição para o fluxo de aprovação interna.",img:[["img2/r-21.jpg","Seleção da unidade de destino"],["img2/r-22.jpg","Botão de solicitar pré-aprovação"]]},
+   {t:"Confirme o envio",p:"A plataforma mostra a mensagem de que a requisição foi aberta com sucesso. O pedido segue pelas aprovações internas e, depois de aprovado, vai para Compras fazer a cotação com os fornecedores.",img:[["img2/r-23.jpg","Requisição pronta para envio"],["img2/r-24.jpg","Mensagem de requisição aberta com sucesso"]]}
   ],
   tip:"<b>Quanto mais detalhe, mais rápido.</b> Imagem de referência, especificação e finalidade bem preenchidas evitam que o pedido volte para ajuste na aprovação ou na cotação."},
  {id:"homologados",n:3,title:"Comprar produtos exclusivos (homologados)",for:["sol"],ready:true,
   who:"Solicitantes",dur:"1,5 min de vídeo",
-  video:"produtos-exclusivos.mp4",poster:"produtos-exclusivos-capa.jpg",pdf:"produtos-exclusivos.pdf",pdfName:"VMarket - Compra de produtos exclusivos.pdf",
+  video:"media/produtos-exclusivos.mp4",poster:"media/produtos-exclusivos-capa.jpg",pdf:"media/produtos-exclusivos.pdf",pdfName:"VMarket - Compra de produtos exclusivos.pdf",
   intro:"Como pedir da lista de Produtos Exclusivos, com preço e condições já negociados por Compras. Sem cotação: o pedido vai direto para a aprovação da gestão da área.",
   steps:[
-   {t:"Abra os Produtos Exclusivos",p:"No menu principal do VMarket, clique em <b>Produtos Exclusivos</b>. Ali estão os itens já negociados com os fornecedores.",img:[["h-00.jpg","Menu principal com a opção Produtos Exclusivos"]]},
-   {t:"Encontre o item",p:"Veja todos os itens negociados descendo a tela, ou use o campo de pesquisa para localizar o produto.",img:[["h-01.jpg","Lista de produtos exclusivos e pesquisa"]]},
-   {t:"Escolha os itens e as quantidades",p:"Selecione os produtos e defina a quantidade de cada um conforme a necessidade. O ícone do carrinho passa a mostrar o total de produtos escolhidos.",img:[["h-02.jpg","Definição da quantidade"],["h-03.jpg","Carrinho com o total de produtos"]]},
-   {t:"Abra o resumo do pedido",p:"Clique no ícone do carrinho para ver o <b>resumo do pedido</b> e revisar os itens e as quantidades.",img:[["h-04.jpg","Ícone do carrinho"]]},
-   {t:"Escolha o CNPJ de faturamento",p:"No resumo, selecione o CNPJ que vai faturar a compra, para o pedido sair em nome da unidade ou empresa correta.",img:[["h-05.jpg","Seleção do CNPJ de faturamento"]]},
+   {t:"Abra os Produtos Exclusivos",p:"No menu principal do VMarket, clique em <b>Produtos Exclusivos</b>. Ali estão os itens já negociados com os fornecedores.",img:[["img3/h-00.jpg","Menu principal com a opção Produtos Exclusivos"]]},
+   {t:"Encontre o item",p:"Veja todos os itens negociados descendo a tela, ou use o campo de pesquisa para localizar o produto.",img:[["img3/h-01.jpg","Lista de produtos exclusivos e pesquisa"]]},
+   {t:"Escolha os itens e as quantidades",p:"Selecione os produtos e defina a quantidade de cada um conforme a necessidade. O ícone do carrinho passa a mostrar o total de produtos escolhidos.",img:[["img3/h-02.jpg","Definição da quantidade"],["img3/h-03.jpg","Carrinho com o total de produtos"]]},
+   {t:"Abra o resumo do pedido",p:"Clique no ícone do carrinho para ver o <b>resumo do pedido</b> e revisar os itens e as quantidades.",img:[["img3/h-04.jpg","Ícone do carrinho"]]},
+   {t:"Escolha o CNPJ de faturamento",p:"No resumo, selecione o CNPJ que vai faturar a compra, para o pedido sair em nome da unidade ou empresa correta.",img:[["img3/h-05.jpg","Seleção do CNPJ de faturamento"]]},
    {t:"Confira fornecedor e condições",p:"Verifique as informações do fornecedor: <b>pedido mínimo</b>, <b>condições de pagamento</b> e <b>prazo de entrega</b>. Confirme também se as quantidades estão corretas."},
-   {t:"Solicite a aprovação",p:"Com tudo conferido, clique para solicitar a aprovação. O pedido vai para a gestão da área responsável, que analisa e aprova a compra.",img:[["h-06.jpg","Resumo conferido, pronto para solicitar aprovação"]]}
+   {t:"Solicite a aprovação",p:"Com tudo conferido, clique para solicitar a aprovação. O pedido vai para a gestão da área responsável, que analisa e aprova a compra.",img:[["img3/h-06.jpg","Resumo conferido, pronto para solicitar aprovação"]]}
   ],
   tip:"<b>Atenção ao pedido mínimo.</b> Se o total ficar abaixo do mínimo do fornecedor, junte com outras necessidades da área antes de enviar."},
  {id:"acompanhar",n:4,title:"Acompanhar pedidos",for:["sol","apr"],ready:false,who:"Solicitantes e aprovadores",intro:"Como ver em que etapa o seu pedido está e o que falta para ele seguir."},
